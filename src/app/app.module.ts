@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AdditionComponent } from './addition/addition.component';
 import { SubstractionComponent } from './substraction/substraction.component';
+import { MultiplicationComponent } from './multiplication/multiplication.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { SubstractionComponent } from './substraction/substraction.component';
     SidebarComponent,
     AdditionComponent,
     SubstractionComponent,
+    MultiplicationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
