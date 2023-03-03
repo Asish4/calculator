@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { AdditionComponent } from './addition/addition.component';
 import { SubstractionComponent } from './substraction/substraction.component';
 import { MultiplicationComponent } from './multiplication/multiplication.component';
+import { DivisionComponent } from './division/division.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MultiplicationComponent } from './multiplication/multiplication.compone
     AdditionComponent,
     SubstractionComponent,
     MultiplicationComponent,
+    DivisionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
