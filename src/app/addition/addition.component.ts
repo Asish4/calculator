@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-addition',
   templateUrl: './addition.component.html',
-  styleUrls: ['./addition.component.css']
+  styleUrls: ['./addition.component.css'],
 })
-export class AdditionComponent {
-
-}
+export class AdditionComponent {}
