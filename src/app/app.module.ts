@@ -9,6 +9,7 @@ import { AdditionComponent } from './addition/addition.component';
 import { SubstractionComponent } from './substraction/substraction.component';
 import { MultiplicationComponent } from './multiplication/multiplication.component';
 import { DivisionComponent } from './division/division.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { DivisionComponent } from './division/division.component';
     MultiplicationComponent,
     DivisionComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
