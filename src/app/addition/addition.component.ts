@@ -7,14 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AdditionComponent {
   result: any;
-  add() {
-    const first = document.getElementById('firstNumber') as HTMLInputElement;
-    const firstValue = first.value;
+  add(values: any) {
+    console.log(values);
 
-    const second = document.getElementById('secondNumber') as HTMLInputElement;
-    const secondValue = second.value;
-
-    this.result = Number(firstValue) + Number(secondValue);
-    return this.result;
+    this.result = values.firstNumber + values.lastNumber;
+    console.log(this.result);
   }
 }
