@@ -7,14 +7,10 @@ import { Component } from '@angular/core';
 })
 export class MultiplicationComponent {
   result: any;
-  mul() {
-    const first = document.getElementById('firstNumber') as HTMLInputElement;
-    const firstValue = first.value;
+  mul(values: any) {
+    console.log(values);
 
-    const second = document.getElementById('secondNumber') as HTMLInputElement;
-    const secondValue = second.value;
-
-    this.result = Number(firstValue) * Number(secondValue);
-    return this.result;
+    this.result = values.firstNumber * values.lastNumber;
+    console.log(this.result);
   }
 }
