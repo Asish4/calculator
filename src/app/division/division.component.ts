@@ -7,14 +7,8 @@ import { Component } from '@angular/core';
 })
 export class DivisionComponent {
   result: any;
-  div() {
-    const first = document.getElementById('firstNumber') as HTMLInputElement;
-    const firstValue = first.value;
-
-    const second = document.getElementById('secondNumber') as HTMLInputElement;
-    const secondValue = second.value;
-
-    this.result = Number(firstValue) / Number(secondValue);
-    return this.result;
+  div(values: any) {
+    this.result = values.firstNumber / values.lastNumber;
+    console.log(this.result);
   }
 }
